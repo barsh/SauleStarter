@@ -6,6 +6,7 @@ namespace SauleStarter.ApiResources
     {
         public CompanyResource()
         {
+            WithId("ID");
             Attribute("Name");
             Attribute("Location");
         }

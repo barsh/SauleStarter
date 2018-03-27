@@ -7,6 +7,7 @@ namespace SauleStarter.Resources
 {
     public class Company
     {
+        public int ID;
         public string Name;
         public string Location;
     }
