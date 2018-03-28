@@ -10,7 +10,7 @@ namespace SauleStarter
         {
             var config = new HttpConfiguration();
             config.MapHttpAttributeRoutes();
-            config.ConfigureJsonApi();
+            config.ConfigureJsonApi(new JsonApiConfiguration(), overwriteOtherFormatters: true);
             app.UseWebApi(config);
         }
     }
